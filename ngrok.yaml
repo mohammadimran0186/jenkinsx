@@ -1,0 +1,7 @@
+authtoken: 2ijddnLKFJAXxBahqmigQJMjlsj_aVYmKc15oCLAwsnL9xkZ
+tunnels:
+  jenkins:
+    proto: http
+    addr: 8080
+    inspect: false
+
