@@ -1,0 +1,22 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: mohammadimran0186
+    provider: github
+    repository: node-http-sample
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+  name: mohammadimran0186-node-http-sample
+  namespace: jx
+spec:
+  httpCloneURL: https://github.com/mohammadimran0186/node-http-sample.git
+  org: mohammadimran0186
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: node-http-sample
+  scheduler:
+    kind: ""
+    name: in-repo
+  url: https://github.com/mohammadimran0186/node-http-sample
