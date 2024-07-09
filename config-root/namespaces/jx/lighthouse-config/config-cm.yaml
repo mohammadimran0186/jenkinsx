@@ -7,6 +7,7 @@ data:
       LinkURL: null
     in_repo_config:
       enabled:
+        mohammadimran0186/golang-jx-demo-app: true
         mohammadimran0186/jenkinsx: true
         mohammadimran0186/jenkinsx-node-app: true
         mohammadimran0186/node-http-sample: true
@@ -21,6 +22,7 @@ data:
         required-if-present-contexts: null
         skip-unknown-contexts: false
       merge_method:
+        mohammadimran0186/golang-jx-demo-app: merge
         mohammadimran0186/jenkinsx: merge
         mohammadimran0186/jenkinsx-node-app: merge
         mohammadimran0186/node-http-sample: merge
@@ -35,6 +37,7 @@ data:
         - needs-rebase
         repos:
         - mohammadimran0186/jenkinsx
+        - mohammadimran0186/golang-jx-demo-app
         - mohammadimran0186/jenkinsx-node-app
         - mohammadimran0186/node-http-sample
       - labels:
@@ -47,6 +50,7 @@ data:
         - needs-rebase
         repos:
         - mohammadimran0186/jenkinsx
+        - mohammadimran0186/golang-jx-demo-app
         - mohammadimran0186/jenkinsx-node-app
         - mohammadimran0186/node-http-sample
       target_url: http://lighthouse-jx.192.168.49.2.nip.io/merge/status
