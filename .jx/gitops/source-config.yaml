@@ -8,6 +8,7 @@ spec:
     provider: https://github.com
     providerKind: github
     repositories:
+    - name: B-N-tsk-
     - name: golang-jx-demo-app
     - name: jenkinsx-node-app
     - name: node-http-sample
