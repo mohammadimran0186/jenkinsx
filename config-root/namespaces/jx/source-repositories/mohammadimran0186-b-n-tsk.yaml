@@ -1,0 +1,22 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: mohammadimran0186
+    provider: github
+    repository: b-n-tsk
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+  name: mohammadimran0186-b-n-tsk
+  namespace: jx
+spec:
+  httpCloneURL: https://github.com/mohammadimran0186/B-N-tsk-.git
+  org: mohammadimran0186
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: B-N-tsk-
+  scheduler:
+    kind: ""
+    name: in-repo
+  url: https://github.com/mohammadimran0186/B-N-tsk-

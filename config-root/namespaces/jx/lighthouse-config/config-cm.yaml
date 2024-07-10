@@ -7,6 +7,7 @@ data:
       LinkURL: null
     in_repo_config:
       enabled:
+        mohammadimran0186/B-N-tsk-: true
         mohammadimran0186/golang-jx-demo-app: true
         mohammadimran0186/jenkinsx: true
         mohammadimran0186/jenkinsx-node-app: true
@@ -22,6 +23,7 @@ data:
         required-if-present-contexts: null
         skip-unknown-contexts: false
       merge_method:
+        mohammadimran0186/B-N-tsk-: merge
         mohammadimran0186/golang-jx-demo-app: merge
         mohammadimran0186/jenkinsx: merge
         mohammadimran0186/jenkinsx-node-app: merge
@@ -37,6 +39,7 @@ data:
         - needs-rebase
         repos:
         - mohammadimran0186/jenkinsx
+        - mohammadimran0186/B-N-tsk-
         - mohammadimran0186/golang-jx-demo-app
         - mohammadimran0186/jenkinsx-node-app
         - mohammadimran0186/node-http-sample
@@ -50,6 +53,7 @@ data:
         - needs-rebase
         repos:
         - mohammadimran0186/jenkinsx
+        - mohammadimran0186/B-N-tsk-
         - mohammadimran0186/golang-jx-demo-app
         - mohammadimran0186/jenkinsx-node-app
         - mohammadimran0186/node-http-sample
