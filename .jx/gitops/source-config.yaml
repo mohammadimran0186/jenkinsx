@@ -11,6 +11,7 @@ spec:
     - name: B-N-tsk-
     - name: golang-jx-demo-app
     - name: jenkinsx-node-app
+    - name: jx-golang-demo
     - name: node-http-sample
     scheduler: in-repo
   slack:
