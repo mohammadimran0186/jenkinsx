@@ -9,11 +9,10 @@ spec:
     providerKind: github
     repositories:
     - name: B-N-tsk-
+    - name: golang-demo-jx2
     - name: golang-jx-demo-app
     - name: jenkinsx-node-app
     - name: jx-golang-demo2
-
-
     - name: node-http-sample
     scheduler: in-repo
   slack:
