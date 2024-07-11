@@ -1,0 +1,22 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: mohammadimran0186
+    provider: github
+    repository: golang-demo-jx2
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+  name: mohammadimran0186-golang-demo-jx2
+  namespace: jx
+spec:
+  httpCloneURL: https://github.com/mohammadimran0186/golang-demo-jx2.git
+  org: mohammadimran0186
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: golang-demo-jx2
+  scheduler:
+    kind: ""
+    name: in-repo
+  url: https://github.com/mohammadimran0186/golang-demo-jx2

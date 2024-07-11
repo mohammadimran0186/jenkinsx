@@ -12,6 +12,10 @@ data:
       require_self_approval: true
     - lgtm_acts_as_approve: true
       repos:
+      - mohammadimran0186/golang-demo-jx2
+      require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
       - mohammadimran0186/golang-jx-demo-app
       require_self_approval: true
     - lgtm_acts_as_approve: true
@@ -37,6 +41,11 @@ data:
           name: plugins
     external_plugins:
       mohammadimran0186/B-N-tsk-:
+      - endpoint: http://cd-indicators.jx.svc.cluster.local/lighthouse/events
+        name: cd-indicators
+      - endpoint: http://lighthouse-webui-plugin.jx.svc.cluster.local/lighthouse/events
+        name: lighthouse-webui-plugin
+      mohammadimran0186/golang-demo-jx2:
       - endpoint: http://cd-indicators.jx.svc.cluster.local/lighthouse/events
         name: cd-indicators
       - endpoint: http://lighthouse-webui-plugin.jx.svc.cluster.local/lighthouse/events
@@ -71,6 +80,20 @@ data:
     owners: {}
     plugins:
       mohammadimran0186/B-N-tsk-:
+      - approve
+      - assign
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - cat
+      - dog
+      - pony
+      mohammadimran0186/golang-demo-jx2:
       - approve
       - assign
       - help
@@ -169,6 +192,9 @@ data:
       trusted_org: mohammadimran0186
     - repos:
       - mohammadimran0186/B-N-tsk-
+      trusted_org: mohammadimran0186
+    - repos:
+      - mohammadimran0186/golang-demo-jx2
       trusted_org: mohammadimran0186
     - repos:
       - mohammadimran0186/golang-jx-demo-app
