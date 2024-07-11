@@ -20,7 +20,11 @@ data:
       require_self_approval: true
     - lgtm_acts_as_approve: true
       repos:
+ pr-a3640b4a-c93c-4963-b677-2a7dc98da2b7
       - mohammadimran0186/jx-golang-demo2
+
+      - mohammadimran0186/jx3-golang-demo
+ main
       require_self_approval: true
     - lgtm_acts_as_approve: true
       repos:
@@ -56,7 +60,11 @@ data:
         name: cd-indicators
       - endpoint: http://lighthouse-webui-plugin.jx.svc.cluster.local/lighthouse/events
         name: lighthouse-webui-plugin
+ pr-a3640b4a-c93c-4963-b677-2a7dc98da2b7
       mohammadimran0186/jx-golang-demo2:
+
+      mohammadimran0186/jx3-golang-demo:
+ main
       - endpoint: http://cd-indicators.jx.svc.cluster.local/lighthouse/events
         name: cd-indicators
       - endpoint: http://lighthouse-webui-plugin.jx.svc.cluster.local/lighthouse/events
@@ -127,7 +135,11 @@ data:
       - cat
       - dog
       - pony
+ pr-a3640b4a-c93c-4963-b677-2a7dc98da2b7
       mohammadimran0186/jx-golang-demo2:
+
+      mohammadimran0186/jx3-golang-demo:
+ main
       - approve
       - assign
       - help
@@ -177,7 +189,11 @@ data:
       - mohammadimran0186/jenkinsx-node-app
       trusted_org: mohammadimran0186
     - repos:
+ pr-a3640b4a-c93c-4963-b677-2a7dc98da2b7
       - mohammadimran0186/jx-golang-demo2
+
+      - mohammadimran0186/jx3-golang-demo
+ main
       trusted_org: mohammadimran0186
     - repos:
       - mohammadimran0186/node-http-sample

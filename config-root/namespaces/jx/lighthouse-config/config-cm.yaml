@@ -11,7 +11,11 @@ data:
         mohammadimran0186/golang-jx-demo-app: true
         mohammadimran0186/jenkinsx: true
         mohammadimran0186/jenkinsx-node-app: true
+ pr-a3640b4a-c93c-4963-b677-2a7dc98da2b7
         mohammadimran0186/jx-golang-demo2: true
+
+        mohammadimran0186/jx3-golang-demo: true
+
         mohammadimran0186/node-http-sample: true
     plank: {}
     pod_namespace: jx
@@ -28,7 +32,11 @@ data:
         mohammadimran0186/golang-jx-demo-app: merge
         mohammadimran0186/jenkinsx: merge
         mohammadimran0186/jenkinsx-node-app: merge
+ pr-a3640b4a-c93c-4963-b677-2a7dc98da2b7
         mohammadimran0186/jx-golang-demo2: merge
+
+        mohammadimran0186/jx3-golang-demo: merge
+ main
         mohammadimran0186/node-http-sample: merge
       queries:
       - labels:
@@ -44,7 +52,11 @@ data:
         - mohammadimran0186/B-N-tsk-
         - mohammadimran0186/golang-jx-demo-app
         - mohammadimran0186/jenkinsx-node-app
+ pr-a3640b4a-c93c-4963-b677-2a7dc98da2b7
         - mohammadimran0186/jx-golang-demo2
+
+        - mohammadimran0186/jx3-golang-demo
+ main
         - mohammadimran0186/node-http-sample
       - labels:
         - updatebot
@@ -59,7 +71,11 @@ data:
         - mohammadimran0186/B-N-tsk-
         - mohammadimran0186/golang-jx-demo-app
         - mohammadimran0186/jenkinsx-node-app
+ pr-a3640b4a-c93c-4963-b677-2a7dc98da2b7
         - mohammadimran0186/jx-golang-demo2
+
+        - mohammadimran0186/jx3-golang-demo
+
         - mohammadimran0186/node-http-sample
       target_url: http://lighthouse-jx.192.168.49.2.nip.io/merge/status
 kind: ConfigMap
